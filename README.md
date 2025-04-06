@@ -135,16 +135,10 @@ This project is licensed under the MIT License.
 👨‍💻 Developer
 Author: uday kiran pyla
 
-vbnet
-Copy
-Edit
 
 
-![Screenshot 2025-04-06 152346](https://github.com/user-attachments/assets/b786c4cb-f6be-4968-862d-aff58cd55845)
-![Screenshot 2025-04-06 152338](https://github.com/user-attachments/assets/8a907bda-863c-4caf-a065-4bf73c8b6459)
-![Screenshot 2025-04-06 152328](https://github.com/user-attachments/assets/ddbc9f98-158d-4aca-a9b9-cfb612b94018)
-![Screenshot 2025-04-06 152317](https://github.com/user-attachments/assets/1a4f623e-5458-4df7-941f-34153fcfd856)
-![Screenshot 2025-04-06 152310](https://github.com/user-attachments/assets/2cfd1b0b-7c49-4eea-802e-87b19eb0fa23)
-![Screenshot 2025-04-06 152303](https://github.com/user-attachments/assets/d2847951-f7e3-47a2-b933-0e05420c7044)
-![Screenshot 2025-04-06 152240](https://github.com/user-attachments/assets/2c7d6d4d-015a-4cf4-ba64-0a939b44c8d9)
-![Screenshot 2025-04-06 152232](https://github.com/user-attachments/assets/0b0d295c-999b-4188-b315-23b972b16bd4)
+
+
+
+
+
