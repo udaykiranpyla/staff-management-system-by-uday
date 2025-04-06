@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1743916448548",
+    "teacherId": "1010",
+    "subject": "maths",
+    "classAssigned": "10A",
+    "workload": "10"
+  },
+  {
+    "id": "1743919798753",
+    "teacherId": "1012",
+    "subject": "maths",
+    "classAssigned": "10B",
+    "workload": "5"
+  }
+]

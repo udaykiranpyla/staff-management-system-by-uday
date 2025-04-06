@@ -1,0 +1,19 @@
+form,
+table {
+  margin: 1em 0;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+form input,
+form select {
+  margin: 5px;
+  padding: 6px;
+}
+
+button {
+  margin: 5px;
+  padding: 6px 10px;
+  cursor: pointer;
+}

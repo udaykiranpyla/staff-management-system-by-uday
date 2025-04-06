@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1743908826949",
+    "staffId": "1743837350587",
+    "basicPay": "50000",
+    "hra": "500",
+    "da": "500",
+    "travel": "500",
+    "pf": "2000",
+    "tax": "2000",
+    "loan": "4500",
+    "bankAccount": "84541414141111411",
+    "directDeposit": true,
+    "month": "2025-04",
+    "netSalary": 43000
+  },
+  {
+    "id": "1743925219229",
+    "staffId": "1743837350587",
+    "basicPay": "50000",
+    "hra": "500",
+    "da": "200",
+    "travel": "500",
+    "pf": "200",
+    "tax": "1997",
+    "loan": "5000",
+    "bankAccount": "874545255",
+    "directDeposit": false,
+    "month": "2025-04",
+    "netSalary": 44003
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "staffId": "S001",
+    "kpis": "Lesson delivery, Punctuality",
+    "feedback": "Positive from students",
+    "peerReview": "Excellent collaboration",
+    "evaluation": "Meets expectations",
+    "goals": "Complete syllabus before exam",
+    "improvementPlan": "Better time management",
+    "rewards": "Best Teacher Award"
+  },
+  {
+    "id": "1743928117815",
+    "staffId": "1743837350587",
+    "kpis": "fghj",
+    "rewards": "xcvbn"
+  },
+  {
+    "id": "1743930338281",
+    "staffId": "1743837350587",
+    "kpis": "sdfghjkdfghjkl",
+    "feedback": "cvhjk",
+    "reviews": "cvbj.",
+    "evaluation": "fvghjkl;",
+    "goals": "cvbnm,.",
+    "improvementPlan": "cvbnm,",
+    "rewards": "cvbnm",
+    "rating": "Average"
+  }
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john@example.com",
+    "department": "Science",
+    "dob": "1990-05-20"
+  },
+  {
+    "id": 1743837350587,
+    "name": "uday",
+    "email": "uday@gmail.com",
+    "department": "maths"
+  },
+  {
+    "id": 1743839642216,
+    "personal": {
+      "fullName": "uday",
+      "dob": "2025-04-16",
+      "gender": "male",
+      "address": "12-4-161/2 ",
+      "phone": "9390941239",
+      "email": "udaykiran7901@gmail.com",
+      "emergencyContact": "986649418"
+    },
+    "professional": {
+      "qualification": "B-TECH",
+      "experience": "5",
+      "specialization": "ai ml",
+      "joiningDate": "2025-04-11",
+      "status": "xcvbn",
+      "department": "cse"
+    },
+    "health": {
+      "history": "fgh",
+      "insurance": "dfgh",
+      "vaccination": "bn",
+      "allergies": "fgh"
+    }
+  },
+  {
+    "id": 1743844122593,
+    "personal": {
+      "fullName": "pyla uday kiran",
+      "dob": "2025-04-16",
+      "gender": "male",
+      "address": "12-4-161/2 ",
+      "phone": "9390941239",
+      "email": "udaykiran7901@gmail.com",
+      "emergencyContact": ""
+    },
+    "professional": {
+      "qualification": "cghj",
+      "experience": "5",
+      "specialization": "vbn",
+      "joiningDate": "2025-04-09",
+      "status": "vhjk",
+      "department": "cvbnm"
+    },
+    "health": {
+      "history": "fghjk",
+      "insurance": "fgh",
+      "vaccination": "cvbn",
+      "allergies": "ghjk"
+    }
+  },
+  {
+    "id": 1743868025513,
+    "personal": {
+      "fullName": "",
+      "dob": "",
+      "gender": "",
+      "address": "",
+      "phone": "",
+      "email": "",
+      "emergencyContact": ""
+    },
+    "professional": {
+      "qualification": "",
+      "experience": "",
+      "specialization": "",
+      "joiningDate": "",
+      "status": "",
+      "department": ""
+    },
+    "health": {
+      "history": "",
+      "insurance": "",
+      "vaccination": "",
+      "allergies": ""
+    }
+  },
+  {
+    "id": 1743868027724,
+    "personal": {
+      "fullName": "",
+      "dob": "",
+      "gender": "",
+      "address": "",
+      "phone": "",
+      "email": "",
+      "emergencyContact": ""
+    },
+    "professional": {
+      "qualification": "",
+      "experience": "",
+      "specialization": "",
+      "joiningDate": "",
+      "status": "",
+      "department": ""
+    },
+    "health": {
+      "history": "",
+      "insurance": "",
+      "vaccination": "",
+      "allergies": ""
+    }
+  },
+  {
+    "id": 1743868029167,
+    "personal": {
+      "fullName": "",
+      "dob": "",
+      "gender": "",
+      "address": "",
+      "phone": "",
+      "email": "",
+      "emergencyContact": ""
+    },
+    "professional": {
+      "qualification": "",
+      "experience": "",
+      "specialization": "",
+      "joiningDate": "",
+      "status": "",
+      "department": ""
+    },
+    "health": {
+      "history": "",
+      "insurance": "",
+      "vaccination": "",
+      "allergies": ""
+    }
+  },
+  {
+    "id": 1743868057246,
+    "personal": {
+      "fullName": "",
+      "dob": "",
+      "gender": "",
+      "address": "",
+      "phone": "",
+      "email": "",
+      "emergencyContact": ""
+    },
+    "professional": {
+      "qualification": "",
+      "experience": "",
+      "specialization": "",
+      "joiningDate": "",
+      "status": "",
+      "department": ""
+    },
+    "health": {
+      "history": "",
+      "insurance": "",
+      "vaccination": "",
+      "allergies": ""
+    }
+  },
+  {
+    "id": 1743868059509,
+    "personal": {
+      "fullName": "",
+      "dob": "",
+      "gender": "",
+      "address": "",
+      "phone": "",
+      "email": "",
+      "emergencyContact": ""
+    },
+    "professional": {
+      "qualification": "",
+      "experience": "",
+      "specialization": "",
+      "joiningDate": "",
+      "status": "",
+      "department": ""
+    },
+    "health": {
+      "history": "",
+      "insurance": "",
+      "vaccination": "",
+      "allergies": ""
+    }
+  }
+]
