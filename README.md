@@ -132,9 +132,7 @@ Feel free to fork and improve! Open issues or PRs for bugs, features, or ideas.
 This project is licensed under the MIT License.
 
 👨‍💻 Developer
-Author: [Your Name]
-Company: [Your Company / Edugene Technologies]
-LinkedIn / Portfolio / GitHub
+Author: uday kiran pyla
 
 vbnet
 Copy
