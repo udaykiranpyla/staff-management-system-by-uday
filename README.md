@@ -1,70 +1,143 @@
-# Getting Started with Create React App
+# 📘 Staff Hub - Staff Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A comprehensive and lightweight **Staff Management System** built using **React.js** for the frontend and **Node.js (Express)** for the backend, with **JSON file-based storage** (no database) to ensure rapid and easy deployment. This system is tailored for educational institutions and supports core HR functions such as:
 
-## Available Scripts
+- 👤 Staff Profiles (Personal, Professional, Health)
+- 🕒 Attendance Tracking
+- 📝 Leave Management
+- 💰 Payroll & Salary Management
+- 📊 Performance Management
+- 📚 Teaching Assignment & Scheduling
+- 📂 Document Management (NEW!)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📦 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ✅ Core Modules
+- **Staff Profiles**: Manage personal, professional, and health details.
+- **Attendance Management**: Track daily attendance with reports.
+- **Leave Management**: Apply and approve leaves with status tracking.
+- **Payroll Management**: Configure salary structure, generate pay slips.
+- **Performance Module**: Track KPIs, feedback, evaluations, and rewards.
+- **Teaching Assignments**: Allocate subjects, manage timetables and workloads.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🆕 Document Management Module
+- **Digital Repository**: Store employment contracts, certificates, reviews, etc.
+- **Version Control**: Maintain file version history.
+- **Access Control**: Secure documents per staff/admin.
+- **Expiry Alerts**: Track and notify about expiring documents.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
 
-### `npm run build`
+| Layer       | Technology         |
+|-------------|--------------------|
+| Frontend    | React.js, Axios, Global CSS |
+| Backend     | Node.js, Express.js |
+| Storage     | JSON Files (no DB) |
+| Uploads     | Multer (File Upload Middleware) |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 📁 Folder Structure
 
-### `npm run eject`
+Staff-Hub/ ├── client/ # React Frontend │ ├── public/ │ ├── src/ │ │ ├── components/ │ │ │ ├── DocumentUpload.js │ │ │ └── DocumentList.js │ │ ├── App.js │ │ └── index.css ├── server/ # Node.js Backend │ ├── routes/ │ │ └── documentRoutes.js │ ├── data/ │ │ └── documents.json │ ├── uploads/ │ │ └── documents/ │ └── server.js
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+bash
+Copy
+Edit
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 📥 Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Clone the Repository**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+git clone https://github.com/yourusername/staff-hub.git
+cd staff-hub
+Install Backend Dependencies
 
-## Learn More
+bash
+Copy
+Edit
+cd server
+npm install
+Start the Backend Server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+bash
+Copy
+Edit
+node server.js
+# Or use nodemon for auto-restart
+npx nodemon server.js
+Setup and Run React Frontend
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+bash
+Copy
+Edit
+cd ../client
+npm install
+npm start
+📂 Document Management Usage
+✅ Upload Document
+Navigate to Upload Document
 
-### Code Splitting
+Enter:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Staff ID
 
-### Analyzing the Bundle Size
+Category (e.g., Contract, Certificate)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Expiry Date (optional)
 
-### Making a Progressive Web App
+Select file to upload
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Click Upload
 
-### Advanced Configuration
+📃 View Staff Documents
+Documents will list:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+File name, category, and upload date
 
-### Deployment
+Expiry status (green = valid, red = nearing expiry)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Link to view/download document
 
-### `npm run build` fails to minify
+🔁 Version Control
+Upload new versions under same document ID via /version/:id API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🔐 Access Control (Planned)
+Admins: Full access
+
+Staff: Limited to own documents
+
+Role-based restrictions coming soon
+
+📅 Upcoming Enhancements
+📧 Email notifications for expiring documents
+
+📈 Analytics dashboard for document and attendance trends
+
+🧑‍🏫 Substitute teacher management and advanced scheduling
+
+☁️ Cloud backup and storage integration
+
+🤝 Contribution
+Feel free to fork and improve! Open issues or PRs for bugs, features, or ideas.
+
+📃 License
+This project is licensed under the MIT License.
+
+👨‍💻 Developer
+Author: [Your Name]
+Company: [Your Company / Edugene Technologies]
+LinkedIn / Portfolio / GitHub
+
+vbnet
+Copy
+Edit
+
+Would you like me to generate this `README.md` as a downloadable file or place it 
